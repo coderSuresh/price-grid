@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+body {
+    background-color: hsl(204, 43%, 93%);
+    font-family: 'Karla', sans-serif;
+}
+
+.container {
+    background-color: #fff;
+    width: 650px;
+    margin: 20vh auto;
+    border-radius: 5px;
+}
+
+.con-1 {
+    width: 100%;
+    height: auto;
+    padding: 20px 20px 0 40px;
+}
+
+.title {
+    color:  hsl(179, 62%, 43%);
+}
+
+.subtitle {
+    color: hsl(71, 73%, 54%);
+}
+
+p {
+    color: hsl(218, 22%, 67%);
+    width: 88%;
+    font-size: 1rem;
+}
+
+.hori {
+    display: flex;
+    align-items: center;
+}
+
+.con-2 {
+    background-color:hsl(179, 62%, 43%);
+    width: 50%; 
+    padding: 40px;
+    border-bottom-left-radius: 5px;
+}
+
+.white {
+    color: hsl(204, 43%, 93%);
+}
+
+.price {
+    font-size: 2rem;
+}
+
+.per-month {
+    margin-left: 20px;
+    color: hsl(179, 83%, 53%);
+}
+
+.signup {
+    background-color: hsl(71, 73%, 54%);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 7px 0 hsl(218, 22%, 67%);
+    width: 95%;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.con-3 {
+    background-color: hsl(179, 76%, 46%);
+    width: 50%;
+    padding: 40px;
+    border-bottom-right-radius: 5px;
+}
+
+p.small {
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
