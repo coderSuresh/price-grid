@@ -1,82 +1,126 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
 body {
+    min-height: 100vh;
     background-color: hsl(204, 43%, 93%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-family: 'Karla', sans-serif;
 }
 
 .container {
-    background-color: #fff;
-    width: 650px;
-    margin: 20vh auto;
-    border-radius: 5px;
+    width: 60%;
+    margin: 10vh auto;
+    background-color: hsl(0, 0%, 100%);
 }
 
-.con-1 {
-    width: 100%;
-    height: auto;
-    padding: 20px 20px 0 40px;
+.top {
+    padding: 40px 30px;
 }
 
 .title {
-    color:  hsl(179, 62%, 43%);
-}
-
-.subtitle {
-    color: hsl(71, 73%, 54%);
-}
-
-p {
-    color: hsl(218, 22%, 67%);
-    width: 88%;
-    font-size: 1rem;
-}
-
-.hori {
-    display: flex;
-    align-items: center;
-}
-
-.con-2 {
-    background-color:hsl(179, 62%, 43%);
-    width: 50%; 
-    padding: 40px;
-    border-bottom-left-radius: 5px;
-}
-
-.white {
-    color: hsl(204, 43%, 93%);
-}
-
-.price {
+    color: hsl(179, 62%, 43%);
     font-size: 2rem;
 }
 
-.per-month {
-    margin-left: 20px;
-    color: hsl(179, 83%, 53%);
+.sub-title {
+    color: hsl(71, 73%, 54%);
+    margin-top: 20px;
+    font-size: 1.2rem;
 }
 
-.signup {
-    background-color: hsl(71, 73%, 54%);
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    box-shadow: 0 2px 7px 0 hsl(218, 22%, 67%);
-    width: 95%;
-    font-size: 1rem;
-    font-weight: 700;
-    cursor: pointer;
+.description {
+    width: 90%;
+    margin-top: 10px;
+    color:  hsl(218, 22%, 67%);
+    font-size: 0.873rem;
 }
 
-.con-3 {
-    background-color: hsl(179, 76%, 46%);
+.bottom {
+    width: 100%;
+    display: flex;
+    color: hsl(0, 0%, 100%);
+}
+
+.left {
     width: 50%;
-    padding: 40px;
-    border-bottom-right-radius: 5px;
+    padding: 40px 30px;
+    background-color: hsl(179, 62%, 43%);
 }
 
-p.small {
-    font-size: 0.9rem;
-    line-height: 1.5;
+.bottom-title {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.price {
+    margin-bottom: 10px;
+    color: hsl(179, 73%, 58%);
+}
+
+span {
+    color: hsl(0, 0%, 100%);
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.desc, .price {
+    font-size: 0.873rem;
+}
+
+.desc {
+    color: hsl(179, 88%, 74%);
+}
+.m {
+    margin-bottom: 20px;
+}
+
+.btn {
+    padding: 7px 20px;
+    border-radius: 5px;
+    background-color: hsl(71, 73%, 54%);
+    color: hsl(0, 0%, 100%);
+}
+
+.right {
+    width: 50%;
+    padding: 40px 30px;
+    background-color: hsl(179, 50%, 50%);
+}
+
+@media (max-width: 900px) {
+    .container {
+        width: 70%;
+    }
+}
+
+@media (max-width: 760px) {
+    .container {
+        width: 80%;
+    }
+}
+
+@media (max-width: 670px) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media (max-width: 500px) {
+   .bottom {
+       flex-direction: column;
+   }
+
+   .left, .right {
+       width: 100%;
+   }
 }
