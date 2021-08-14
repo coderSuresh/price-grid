@@ -78,7 +78,7 @@ span {
 }
 
 .desc {
-    color: hsl(179, 88%, 74%);
+    color: rgb(37, 255, 248);
 }
 .m {
     margin-bottom: 20px;
@@ -89,6 +89,11 @@ span {
     border-radius: 5px;
     background-color: hsl(71, 73%, 54%);
     color: hsl(0, 0%, 100%);
+}
+
+.btn:hover, .btn:active {
+    outline: dashed hsl(71, 73%, 54%); 
+    outline-offset: 0.25em;
 }
 
 .right {
