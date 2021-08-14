@@ -91,7 +91,7 @@ span {
     color: hsl(0, 0%, 100%);
 }
 
-.btn:hover, .btn:active {
+.btn:focus, .btn:active {
     outline: dashed hsl(71, 73%, 54%); 
     outline-offset: 0.25em;
 }
